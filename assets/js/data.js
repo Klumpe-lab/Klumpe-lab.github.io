@@ -19,7 +19,8 @@ window.LAB = {
     "journal": "bioRxiv",
     "links": {
       "DOI": "https://doi.org/10.64898/2026.05.11.724418"
-    }
+    },
+    "image": "assets/img/publications/coincidence-milling.png"
   },
   {
     "year": 2026,
@@ -31,7 +32,8 @@ window.LAB = {
       "DOI": "https://doi.org/10.1016/j.ultramic.2025.114302",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/41529658",
       "Code": "https://github.com/sklumpe/beamshape-manuscript"
-    }
+    },
+    "image": "assets/img/publications/shaped-beams.gif"
   },
   {
     "year": 2026,
