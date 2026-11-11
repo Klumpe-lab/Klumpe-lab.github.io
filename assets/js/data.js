@@ -43,7 +43,8 @@ window.LAB = {
     "journal": "Bio-protocol 16(20)",
     "links": {
       "DOI": "https://doi.org/10.21769/BioProtoc.5855"
-    }
+    },
+    "image": "assets/img/publications/moss-tissue-protocol.webp"
   },
   {
     "year": 2026,
@@ -62,7 +63,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1016/j.sbi.2025.103138",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/40848707"
-    }
+    },
+    "image": "assets/img/publications/cosb-cryofib.webp"
   },
   {
     "year": 2025,
@@ -74,7 +76,7 @@ window.LAB = {
       "DOI": "https://doi.org/10.1016/j.cell.2025.07.025",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/40829587"
     },
-    "image": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-53750/images/emd_53750.png"
+    "image": "assets/img/publications/ran-cytoplasmic-npcs.png"
   },
   {
     "year": 2025,
@@ -85,7 +87,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1038/s41467-025-60545-3",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/40467589"
-    }
+    },
+    "image": "assets/img/publications/sem-charging-interleaved.webp"
   },
   {
     "year": 2025,
@@ -95,7 +98,8 @@ window.LAB = {
     "journal": "BioHackrXiv",
     "links": {
       "DOI": "https://doi.org/10.37044/osf.io/hbw6m_v1"
-    }
+    },
+    "image": "assets/img/publications/biohackrxiv.png"
   },
   {
     "year": 2025,
@@ -119,7 +123,8 @@ window.LAB = {
     "journal": "bioRxiv",
     "links": {
       "DOI": "https://doi.org/10.1101/2025.02.14.638237"
-    }
+    },
+    "image": "assets/img/publications/plant-tissue.webp"
   },
   {
     "year": 2025,
@@ -130,7 +135,7 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1007/s12268-025-2568-8"
     },
-    "image": "assets/img/research/copia-cluster.webp"
+    "image": "assets/img/publications/biospektrum-copia.webp"
   },
   {
     "year": 2024,
@@ -141,7 +146,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1042/bst20240173",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/39641594"
-    }
+    },
+    "image": "assets/img/publications/bst-liftout.webp"
   },
   {
     "year": 2024,
@@ -152,7 +158,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1016/j.cell.2024.01.005",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/38306982"
-    }
+    },
+    "image": "assets/img/publications/cell-review-multimodal.webp"
   },
   {
     "year": 2024,
@@ -164,7 +171,7 @@ window.LAB = {
       "DOI": "https://doi.org/10.1038/s41592-023-02113-5",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/38110637"
     },
-    "image": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-17241/images/emd_17241.png"
+    "image": "assets/img/publications/serial-lift-out.webp"
   },
   {
     "year": 2024,
@@ -185,7 +192,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.7554/elife.83623",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/36805107"
-    }
+    },
+    "image": "assets/img/publications/pfib-sem-volume.webp"
   },
   {
     "year": 2022,
@@ -208,7 +216,7 @@ window.LAB = {
       "DOI": "https://doi.org/10.1038/s41467-022-28186-y",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/35149681"
     },
-    "image": "https://cdn.rcsb.org/images/structures/qo/7qo3/7qo3_assembly-1.jpeg"
+    "image": "assets/img/publications/proteasome-ubp6.webp"
   },
   {
     "year": 2022,
@@ -218,7 +226,8 @@ window.LAB = {
     "journal": "Microscopy Today",
     "links": {
       "DOI": "https://doi.org/10.1017/s1551929521001528"
-    }
+    },
+    "image": "assets/img/publications/liftout-microscopy-today.webp"
   },
   {
     "year": 2021,
@@ -231,7 +240,7 @@ window.LAB = {
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/34951584",
       "Code": "https://github.com/sklumpe/SerialFIB"
     },
-    "image": "https://ftp.ebi.ac.uk/pub/databases/emdb/structures/EMD-13879/images/emd_13879.png"
+    "image": "assets/img/publications/serialfib.webp"
   },
   {
     "year": 2021,
@@ -255,7 +264,7 @@ window.LAB = {
       "DOI": "https://doi.org/10.1016/j.cell.2021.05.011",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/34166613"
     },
-    "image": "https://cdn.rcsb.org/images/structures/o3/7o3w/7o3w_assembly-1.jpeg"
+    "image": "assets/img/publications/vipp1.webp"
   },
   {
     "year": 2021,
@@ -278,7 +287,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1016/j.jsb.2021.107743",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/33971286"
-    }
+    },
+    "image": "assets/img/publications/tacke-workflow.webp"
   },
   {
     "year": 2021,
@@ -289,7 +299,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1093/plphys/kiaa040",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/33793889"
-    }
+    },
+    "image": "assets/img/publications/plant-endomembrane.webp"
   },
   {
     "year": 2021,
@@ -301,7 +312,7 @@ window.LAB = {
       "DOI": "https://doi.org/10.1016/j.bbrc.2020.09.131",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/33039147"
     },
-    "image": "https://cdn.rcsb.org/images/structures/yu/6yun/6yun_assembly-1.jpeg"
+    "image": "assets/img/publications/sars-cov-2-n-dimer.webp"
   },
   {
     "year": 2021,
@@ -311,7 +322,8 @@ window.LAB = {
     "journal": "In: Bioanalytik (Springer Spektrum)",
     "links": {
       "DOI": "https://doi.org/10.1007/978-3-662-61707-6_23"
-    }
+    },
+    "image": "assets/img/publications/bioanalytik.webp"
   },
   {
     "year": 2020,

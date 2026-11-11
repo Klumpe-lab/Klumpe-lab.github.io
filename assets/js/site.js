@@ -114,7 +114,7 @@ function renderPublications(target, { limit, search, filter } = {}) {
   let html = "", lastYear = null;
   for (const p of pubs) {
     if (!limit && p.year !== lastYear) { html += `<div class="pub-year">${p.year}</div>`; lastYear = p.year; }
-    const authors = esc(p.authors).replace(/Klumpe S[A-Z]*/g, (m) => `<span class="me">${m}</span>`);
+    const authors = esc(p.authors);
     const links = Object.entries(p.links || {}).map(([k, v]) => `<a href="${esc(v)}">${esc(k)}</a>`).join("");
     const thumb = p.image
       ? `<img class="pub-thumb" src="${esc(p.image)}" alt="" loading="lazy">`
