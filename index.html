@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klumpe Lab · IMP &amp; IMBA Vienna</title>
+  <meta name="description" content="The Klumpe Lab at the IMP and IMBA, Vienna BioCenter: cryo-electron tomography, cryo-FIB technology and the structural cell biology of transposons.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<main>
+  <section class="container hero hero-text">
+    <div>
+      <div class="eyebrow">Klumpe Lab · IMP &amp; IMBA · Vienna</div>
+      <h1>Seeing the molecular machinery of life where it works.</h1>
+      <p class="lead">We develop and apply technologies for in situ structural biology. With cryo-electron tomography and cryo-FIB milling, we study transposons and other molecular machines directly inside cells and tissues.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="research.html">Our research →</a>
+        <a class="btn btn-ghost" href="join.html">Join us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <figure class="hero-banner">
+      <img src="assets/img/research/copia-cluster.webp" alt="3D rendering of a cluster of copia virus-like particles" width="1600" height="643">
+      <figcaption>A cluster of <em>copia</em> virus-like particles, rendered from cryo-ET data.</figcaption>
+    </figure>
+  </section>
+
+  <section class="container section">
+    <div class="grid grid-3">
+      <a class="card topic-card" href="research.html">
+        <div class="topic-img"><img src="assets/img/research/copia-capsid.webp" alt="Subtomogram average of the copia retrotransposon capsid" loading="lazy"></div>
+        <span class="tag">Biology</span>
+        <h3 style="margin-top:.7rem">Transposons inside cells</h3>
+        <p class="muted">What do jumping genes look like, at molecular resolution, in the cells where they replicate?</p>
+      </a>
+      <a class="card topic-card" href="research.html#methods">
+        <div class="topic-img"><img class="img-light" src="assets/img/research/technology.webp" alt="Illustrated cryo-FIB workflow: high-pressure freezing, cryo-CLEM, cryo-FIB/SEM lift-out and lamella milling" loading="lazy"><img class="img-dark" src="assets/img/research/technology-dark.webp" alt="Illustrated cryo-FIB workflow: high-pressure freezing, cryo-CLEM, cryo-FIB/SEM lift-out and lamella milling" loading="lazy"></div>
+        <span class="tag">Methods</span>
+        <h3 style="margin-top:.7rem">Cryo-FIB technology</h3>
+        <p class="muted">Automation, lift-out and new beam strategies to bring cryo-ET to tissues and whole organisms.</p>
+      </a>
+      <a class="card topic-card" href="software.html">
+        <div class="topic-img"><img src="assets/img/research/software.webp" alt="Screenshot of our cryo-ET analysis software showing a gallery of segmented tomograms with particle picks" loading="lazy"></div>
+        <span class="tag">Software</span>
+        <h3 style="margin-top:.7rem">Open-source software development</h3>
+        <p class="muted">fibsemOS for controlling and automating FIB-SEM microscopes, plus software to analyse cryo-ET data and genomic data for exploring active transposable elements.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <h2>Latest news</h2>
+      <a href="news.html">All news & fun →</a>
+    </div>
+    <div class="grid grid-3" id="home-news"></div>
+  </section>
+
+  <section class="container section">
+    <div class="section-head">
+      <h2>Recent publications</h2>
+      <a href="publications.html">All publications →</a>
+    </div>
+    <div id="home-pubs"></div>
+  </section>
+  <section class="container section">
+    <div class="section-head">
+      <h2>Supported by</h2>
+    </div>
+    <div class="sponsors" data-sponsors></div>
+  </section>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

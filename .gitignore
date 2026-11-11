@@ -1,0 +1,6 @@
+# Full-size originals; the site only uses the downsampled copies in assets/
+images/
+labpictures/
+# Local tooling and macOS files
+.claude/
+.DS_Store
