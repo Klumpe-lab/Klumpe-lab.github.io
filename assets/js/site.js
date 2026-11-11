@@ -8,8 +8,8 @@ const NAV = [
   ["publications.html", "Publications"],
   ["structures.html", "Structures"],
   ["software.html", "Software"],
-  ["join.html", "Join us"],
   ["contact.html", "Contact"],
+  ["https://klumpe-lab.github.io/icet2028/", "ICET2028", "project"],
 ];
 
 (function layout() {
@@ -24,8 +24,8 @@ const NAV = [
         <span>Klumpe Lab<small>IMP · IMBA · Vienna BioCenter</small></span>
       </a>
       <nav class="nav" id="site-nav">
-        ${NAV.map(([href, label]) =>
-          `<a href="${href}"${href === here ? ' aria-current="page"' : ""}>${label}</a>`
+        ${NAV.map(([href, label, kind]) =>
+          `<a href="${href}"${href === here ? ' aria-current="page"' : ""}${kind ? ` class="nav-${kind}"` : ""}>${label}</a>`
         ).join("")}
       </nav>
       <div class="header-actions">
@@ -75,7 +75,7 @@ const NAV = [
   footer.innerHTML = `
     <div class="container">
       <span>© ${new Date().getFullYear()} Klumpe Lab · IMP & IMBA, Vienna BioCenter</span>
-      <span><a href="contact.html">Contact</a> · <a href="join.html">Join us</a> · <a href="https://www.imp.ac.at" rel="noopener">imp.ac.at</a></span>
+      <span><a href="contact.html#contact">Contact</a> · <a href="contact.html">Join us</a> · <a href="https://www.imp.ac.at" rel="noopener">imp.ac.at</a></span>
     </div>`;
   document.body.append(footer);
 })();
