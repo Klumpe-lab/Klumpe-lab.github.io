@@ -334,7 +334,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1016/j.csbj.2020.06.030",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/32695274"
-    }
+    },
+    "image": "assets/img/publications/cembrenol-qmmm.webp"
   },
   {
     "year": 2019,
@@ -345,7 +346,8 @@ window.LAB = {
     "links": {
       "DOI": "https://doi.org/10.1371/journal.pone.0220091",
       "PubMed": "https://pubmed.ncbi.nlm.nih.gov/31851676"
-    }
+    },
+    "image": "assets/img/publications/igem-cas13a-reader.webp"
   }
 ],
 
