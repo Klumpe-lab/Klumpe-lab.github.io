@@ -343,7 +343,7 @@ img.zoomable:focus-visible { outline: 3px solid var(--accent); outline-offset: 3
 .stack span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .75rem; padding: .1rem .45rem; border-radius: 4px; background: var(--surface-2); color: var(--ink-2); }
 
 /* ---------- Join ---------- */
-.position { display: grid; gap: .5rem; }
+.position { display: grid; gap: .5rem; align-content: start; }
 .position .status { font-size: .8rem; font-weight: 600; color: var(--accent); }
 .steps { counter-reset: s; list-style: none; padding: 0; display: grid; gap: 1rem; }
 .steps li { counter-increment: s; padding-left: 3rem; position: relative; }

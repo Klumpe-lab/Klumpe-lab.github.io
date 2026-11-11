@@ -80,6 +80,17 @@ const NAV = [
   document.body.append(footer);
 })();
 
+/* ---------- Spam-safe email links ----------
+   Addresses are stored reversed in data attributes and only assembled when clicked,
+   so the plain address never appears in the page source. */
+document.addEventListener("click", (e) => {
+  const a = e.target.closest("a.js-email");
+  if (!a) return;
+  e.preventDefault();
+  const rev = (t) => [...t].reverse().join("");
+  location.href = "mai" + "lto:" + rev(a.dataset.u) + "\u0040" + rev(a.dataset.d);
+});
+
 /* ---------- Helpers ---------- */
 const $ = (sel, root = document) => root.querySelector(sel);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
