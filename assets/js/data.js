@@ -402,6 +402,14 @@ window.LAB = {
     "portrait": "assets/img/people/kushner.jpg"
   },
   {
+    "id": "lab-opening",
+    "date": "2025-07",
+    "kind": "news",
+    "title": "The Klumpe Lab opens at the IMP and IMBA",
+    "text": "The Klumpe Lab is now up and running at the Vienna BioCenter, as a joint group of the IMP and IMBA. We use cryo-electron tomography and cryo-FIB technology to study transposons inside cells and tissues.",
+    "link": "research.html"
+  },
+  {
     "id": "farewell-elza",
     "date": "2026-08-29",
     "kind": "fun",
