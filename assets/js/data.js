@@ -582,6 +582,12 @@ window.LAB = {
     "bio": "Shared postdoc with the Brennecke lab at IMBA."
   },
   {
+    "name": "Jackson Ridges",
+    "photo": "assets/img/people/ridges.jpg",
+    "role": "Postdoctoral Fellow",
+    "bio": "Shared postdoc with the Brennecke lab at IMBA."
+  },
+  {
     "name": "Artem Kushner",
     "photo": "assets/img/people/kushner.jpg",
     "role": "Data Steward Scientist",
