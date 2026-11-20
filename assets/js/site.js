@@ -395,3 +395,9 @@ document.addEventListener("DOMContentLoaded", () => {
   initLightbox();
   initStructures();
 });
+
+// Respect reduced-motion: stop autoplaying videos and give the viewer controls instead.
+(function () {
+  if (!window.matchMedia || !matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  document.querySelectorAll("video[autoplay]").forEach(v => { v.removeAttribute("autoplay"); v.pause(); v.controls = true; });
+})();
